@@ -14,7 +14,7 @@ Packages are provided according to this [table](./Community-Packages.md).
 Download the GPG key to apt config directory:
 
 ```console
-wget -O - https://download.gluster.org/pub/gluster/glusterfs/9/rsa.pub | gpg --dearmor > /etc/apt/trusted.gpg.d/gluster.gpg
+wget -O - https://download.gluster.org/pub/gluster/glusterfs/11/rsa.pub | gpg --dearmor > /etc/apt/trusted.gpg.d/gluster.gpg
 ```
 
 If the rsa.pub is not available at the above location, please look here https://download.gluster.org/pub/gluster/glusterfs/7/rsa.pub and add the GPG key to apt:
@@ -55,7 +55,7 @@ apt install software-properties-common
 Then add the community GlusterFS PPA:
 
 ```console
-add-apt-repository ppa:gluster/glusterfs-7
+add-apt-repository ppa:gluster/glusterfs-11
 apt update
 ```
 
@@ -66,7 +66,7 @@ apt install glusterfs-server
 ```
 
 _Note: Packages exist for Ubuntu 16.04 LTS, 18.04
-LTS, 20.04 LTS, 20.10, 21.04_
+LTS, 20.04 LTS, 20.10, 21.04, 21.10, 22.04 LTS, 22.10, 23.04, 23.10, 24.04 LTS_
 
 ###### For Red Hat/CentOS
 
